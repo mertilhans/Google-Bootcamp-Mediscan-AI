@@ -103,6 +103,7 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 ### 📋 Backlog
 
 - [[Trello Board Linki]](https://trello.com/b/Ef3v4hnH/bootcamp-183-grup)
+- <img width="1349" alt="Screenshot 2025-07-06 at 23 19 48" src="https://github.com/user-attachments/assets/2b75088e-bc24-4751-9fc0-b989a336c8b8" />
 
 ### ✅ Sprint Review
 
