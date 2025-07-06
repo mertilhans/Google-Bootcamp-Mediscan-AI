@@ -98,7 +98,7 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 
 - Hedeflenen puan: **100 Puan**
 - Toplam 300 puanlık backlog, 3 sprint'e bölündü
-- Daily Scrums: Google Meet üzerinden gerçekleştirildi
+- Daily Scrums: Google Meet üzerinden günlük gerçekleştirildi
 
 ### 📋 Backlog
 
