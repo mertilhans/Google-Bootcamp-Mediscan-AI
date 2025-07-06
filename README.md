@@ -10,6 +10,7 @@ MediScan AI, kullanıcıların ilaç kutularını, blisterlerini veya doğrudan 
 Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi terimleri anlamakta zorluk çekiyor veya prospektüsleri kaybediyor. MediScan AI, bu sorunu çözmek için yapay zeka teknolojilerinden faydalanarak tıbbi bilgiyi herkesin anlayabileceği bir şekilde sunmayı amaçlar.
 
 ---
+![logooo](https://github.com/user-attachments/assets/1bb2649d-832a-41f4-b72c-2b26cb41074c)
 
 ## 🔧 Özellikler
 
@@ -103,7 +104,10 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 ### 📋 Backlog
 
 - [[Trello Board Linki]](https://trello.com/b/Ef3v4hnH/bootcamp-183-grup)
-- <img width="1349" alt="Screenshot 2025-07-06 at 23 19 48" src="https://github.com/user-attachments/assets/2b75088e-bc24-4751-9fc0-b989a336c8b8" />
+![eklenecek1](https://github.com/user-attachments/assets/d691b13a-27ab-492c-ba03-aae4a96ddb84)
+![eklenecek2](https://github.com/user-attachments/assets/ca0c2d6e-0a44-4a5b-98c9-231eaf225ce4)
+
+
 
 ### ✅ Sprint Review
 
