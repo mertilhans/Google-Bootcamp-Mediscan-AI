@@ -1,127 +1,138 @@
+# 💊 MediScan AI
+![logo ](https://github.com/user-attachments/assets/bba31cc2-6c3a-4a7f-80db-3ae5dd9cd8e7)
 
-# 🧠 İlaç Bilgi Sistemi (Akıllı Tanıma & Bilgilendirme Platformu)
-
-İlaç kutusunun fotoğrafını çekerek, **kullanıcıya kişiselleştirilmiş, güvenilir ve açıklayıcı ilaç bilgisi** sunmayı amaçlayan yapay zeka destekli bir platform.
-
----
-
-## 🚀 Proje Amacı
-
-- 📷 Görüntü tanıma ile ilaç tespiti  
-- 📄 Kullanma Talimatı (KT) ve Kısa Ürün Bilgisi (KÜB) verilerinden zengin içerik  
-- 🧠 AI ile sadeleştirilmiş hasta bilgisi veya profesyonel detay  
-- 💬 API & Konuşma yönetimi ile etkileşimli bilgi akışı  
-- ✅ KVKK uyumlu, güvenli, kişisel veri saklamayan yapı
+MediScan AI, kullanıcıların ilaç kutularını, blisterlerini veya doğrudan ilaçların kendisini fotoğraflayarak ilaçlar hakkında sade, anlaşılır ve resmi bilgilere anında ulaşabildiği yapay zeka destekli bir sağlık teknolojisi platformudur.
 
 ---
 
-## 🏗️ Sistem Mimarisi
+## 🎯 Proje Amacı
 
-```
-📦 Görüntü → OCR → Metin Tanıma → SQL Sorgu
-       ↓
-🔍 Eşleşme → ChromaDB vektör arama → Gemini ile cevap üretimi
-       ↓
-🧠 Kullanıcıya göre özet ya da detay bilgi
-```
+Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi terimleri anlamakta zorluk çekiyor veya prospektüsleri kaybediyor. MediScan AI, bu sorunu çözmek için yapay zeka teknolojilerinden faydalanarak tıbbi bilgiyi herkesin anlayabileceği bir şekilde sunmayı amaçlar.
 
 ---
 
-## 📊 Ana Bileşenler
+## 🔧 Özellikler
 
-### 1. 🧾 Veri Hazırlama
-- Kullanma Talimatı & KÜB PDF analizleri
-- JSON çıktılar & kritik bilgi çıkarımı
+- **📸 İlaç Görüntü Tanıma:**
+  - Kutu, blister veya doğrudan ilaç fotoğrafından tanıma.
+  - Her tip için optimize edilmiş algoritmalar.
 
-### 2. 🗃️ Veritabanı & Vektör Arama
-- PostgreSQL: İlaç ana veri deposu
-- ChromaDB: KT & KÜB bilgi arama (embedding)
+- **🧠 Hibrit Tanıma Sistemi:**
+  - OCR ve görüntü işleme teknolojileri bir arada.
+  - Sonuçlar birleştirilerek doğruluk artırılır.
 
-### 3. 🔤 OCR & Görüntü İşleme
-- Tesseract OCR ile metin çıkarımı
-- İlaç kutusu algılama modelleri
+- **📝 Akıllı Prospektüs Özetleme:**
+  - Sağlık Bakanlığı verileri kullanılır.
+  - Gemini API ile sade ve kişisel özetler sunulur.
 
-### 4. 🤖 AI Destekli Bilgi Servisi
-- Prompt engineering (Gemini)
-- Farklı seviyelerde bilgi üretimi (hasta / uzman)
+- **❓ İnteraktif Soru-Cevap:**
+  - Kullanıcılar sistem üzerinden sorular sorabilir.
+  - Sistem, prospektüs verilerine dayalı yanıt üretir.
 
-### 5. 🔐 Güvenlik & Uyumluluk
-- KVKK uyumlu geçici session yapısı
-- Sorumluluk reddi & kritik bilgi önceliği
+- **📷 Çoklu Fotoğraf Desteği:**
+  - Aynı ilacın farklı açılardan fotoğrafları yüklenebilir.
 
----
+- **🕵️ Anonim Kullanım:**
+  - Hesap açmadan kullanılabilir.
+  - Fotoğraflar geçici olarak işlenir ve saklanmaz.
 
-## 🧪 API Örnekleri
+- **🔁 Benzer İlaç Bilgisi:**
+  - Aynı etken maddeye sahip alternatif ilaçlar gösterilir.
 
-```http
-POST /api/ilac/tani
-→ Görüntü yükle, OCR yap, eşleşme bul
-
-GET /api/ilac/{id}/ozet
-→ Hasta için sade bilgi
-
-POST /api/ilac/{id}/soru
-→ Detaylı AI yanıtı (Gemini ile)
-
-GET /api/ilac/{id}/detay
-→ Teknik veriler (KÜB dahil)
-```
+- **⚠️ Sorumluluk Reddi:**
+  - Sunulan bilgiler tıbbi tavsiye değildir.
 
 ---
 
-## ⚙️ Teknoloji Stack
+## 👥 Hedef Kitle
 
-| Alan              | Teknoloji                          |
-|-------------------|------------------------------------|
-| Backend           | FastAPI / Django                   |
-| Veritabanı        | PostgreSQL                         |
-| Vektör DB         | ChromaDB                           |
-| OCR               | Tesseract                          |
-| AI/LLM            | Google Gemini                      |
-| Caching           | Redis                              |
-| Kuyruklama        | Celery + RabbitMQ                  |
-| Monitoring        | Prometheus + Grafana               |
+- Kronik hastalıkları olan bireyler
+- 65 yaş üstü kullanıcılar
+- Çocuklu aileler ve ebeveynler
+- Görme problemi yaşayanlar
+- Sağlık okuryazarlığı düşük bireyler
+- Acil durumda ilaç bilgisine erişmek isteyenler
+- Genç ve teknolojiye yatkın kullanıcılar
+- Eczacılar ve sağlık çalışanları
 
 ---
 
-## 📅 Yol Haritası
+## 🔮 Gelecek Sürümlerde Planlanan Özellikler
 
-| Zaman Aralığı | Hedefler |
-|---------------|----------|
-| **1-2 Gün**   | JSON çıktılarının iyileştirilmesi, eksik alanların tespiti |
-| **1 Hafta**   | PostgreSQL & ChromaDB kurulumu, veri yükleme, ilk API uçları |
-| **2-3 Hafta** | OCR & Gemini entegrasyonu, basit frontend prototipi |
-| **1-2 Ay**    | Üretim ortamı kurulumu, A/B testleri, performans optimizasyonu |
-
----
-
-## ✅ Başarı Kriterleri
-
-- 🔍 **Tanıma Doğruluğu**: %95+
-- ⚡ **Yanıt Süresi**: < 2 saniye
-- ❤️ **Kullanıcı Memnuniyeti**: %90+
-- ❗ **Kritik Bilgi Atlama Oranı**: %0
+- Kullanıcı hesabı ve geçmiş arama kaydı
+- Dozaj hatırlatıcı sistemi
+- Favori ilaçlar listesi
+- İlaç etkileşim kontrolü
+- Eczane entegrasyonu ve stok bilgisi
+- Mobil uygulama sürümü
 
 ---
 
-## 👥 Proje Ekibi
+## 👨‍💻 Proje Ekibi
 
-| Rol                  | İsim                             |
-|----------------------|----------------------------------|
-| 🧭 Scrum Master       | Enes Muharrem Erdoğan             |
-| 🎯 Product Owner      | Kezban Şevval İnci                |
-| 👨‍💻 Developer          | Mert İlhan                       |
-| 👩‍💻 Developer          | Sevde Elif Hacıosmanoğlu          |
-| 👨‍💻 Developer          | Emirhan Yıldız                   |
-
----
-
-## 📄 Lisans ve Sorumluluk
-
-Bu proje sadece **eğitim ve araştırma** amaçlıdır. Verilen bilgiler gerçek tıbbi tavsiye yerine geçmez. Uygulama hiçbir şekilde kullanıcı verisi tutmaz veya kişisel veri işlemez.
+| İsim                     | Görev             |
+|--------------------------|------------------|
+| Enes Muharrem Erdoğan    | Scrum Master     |
+| Kezban Şevval İnci       | Product Owner    |
+| Mert İlhan               | Developer        |
+| Sevde Elif Hacıosmanoğlu | Developer        |
+| Emirhan Yıldız           | Developer        |
 
 ---
 
-## 📌 Not
+## 🚧 Sprint 1 Notları
 
-Proje geliştirme süreci aktif olarak devam etmektedir. Katkı sunmak isteyenler için `issues`, `pull request` ve `contributing.md` bölümleri yakında eklenecektir.
+### 🔧 Teknik Kararlar
+
+- Proje yönetimi için Trello kullanılmasına karar verildi
+- UI/UX tasarımları için Figma kullanılacak
+- Backend framework olarak FastAPI seçildi
+- Görüntü işleme için OpenCV ve Pillow kütüphaneleri kullanılacak
+- Model eğitimi için TensorFlow/Keras ve EfficientNet kullanılacak
+- OCR işlemleri için Tesseract ve EasyOCR karşılaştırılacak
+- Veritabanı olarak PostgreSQL (metadata) ve ChromaDB (vektör veritabanı) kullanılacak
+- LLM entegrasyonu için Gemini API tercih edildi
+- PDF işleme için PyPDF2 ve pdfplumber test edilecek
+
+### 🎯 Sprint Hedefleri
+
+- Hedeflenen puan: **100 Puan**
+- Toplam 300 puanlık backlog, 3 sprint'e bölündü
+- Daily Scrum: Google Meet üzerinden gerçekleştirildi
+
+### 📋 Backlog
+
+- [Trello Board Linki]
+
+### ✅ Sprint Review
+
+- Literatür taraması ve rakip analizleri yapıldı
+- İlk 20 ilaç için veri seti oluşturuldu
+- 15.000 ilaç bilgisi PDF olarak toplandı
+- PDF'lerden JSON test verileri üretildi
+- GitHub repo ve klasör yapısı oluşturuldu
+- Tech stack belirlendi ve belgelendi
+
+**Katılımcılar:** Tüm takım üyeleri
+
+### 🔁 Sprint Retrospective
+
+- Fotoğraf çekimi beklenenden uzun sürdü, standartlaştırıldı
+- PDF kütüphanelerinin çeşitliliği test edildi
+- İkinci sprintte model eğitimi ve web geliştirme başlayacak
+- OCR araştırması derinleştirilecek
+- Görev dağılımı yeniden gözden geçirildi
+- Mockup tasarımları ikinci sprintte tamamlanacak
+- KVKK ve veri güvenliği üzerine araştırma yapılacak
+- Proje ismi olarak "MediScan AI" kararlaştırıldı (geçici)
+
+### 📝 Diğer Notlar
+
+- Hibrit tanıma sistemi benimsenecek (OCR + Görüntü İşleme)
+- Kullanıcı deneyimi öncelikli: hesap açmadan kullanım hedefleniyor
+- Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri eklenecek
+
+---
+
+> ℹ️ **Uyarı:** Bu platform tanı koymaz veya reçete vermez. Sadece bilgilendirme amacıyla kullanılır. Her zaman bir sağlık uzmanına danışınız.
+
