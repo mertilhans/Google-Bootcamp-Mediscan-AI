@@ -115,6 +115,8 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 
 **Katılımcılar:** Tüm takım üyeleri
 
+![eklenecek1](https://github.com/user-attachments/assets/852a187c-7a92-4c95-9cf7-8f5ad00717fa)
+
 ### 🔁 Sprint Retrospective
 
 - Fotoğraf çekimi beklenenden uzun sürdü, standartlaştırıldı
