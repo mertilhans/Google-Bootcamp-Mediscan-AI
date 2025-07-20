@@ -163,7 +163,8 @@ Daily Scrum: Takım üyeleri Google Meet üzerinden günlük toplantılar gerçe
 ## 📆 Daily Scrum
 
 - Takım üyeleri(Enes Muharrem Erdoğan - Sevde Elif Hacıosmanoğlu - Şevval İnci - Mert İlhan)her gün **Google Meet** üzerinden online toplantılar gerçekleştirdi.  
-- Görev dağılımları ve **backlog durumu** günlük olarak kontrol edildi ve güncellendi.  
+- Görev dağılımları ve **backlog durumu** günlük olarak kontrol edildi ve güncellendi.
+- ![bu2](https://github.com/user-attachments/assets/8937f582-6172-4613-bfe8-4d5a19b6c6d0)
 
 ---
 
@@ -185,7 +186,6 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 - Kullanıcı deneyimi önceliklendirildi: **Hesapsız kullanım** hedefleniyor  
 - Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri planlandı  
 ![bu1](https://github.com/user-attachments/assets/bb30be78-9ab5-4520-afb4-fd3f9361ad53)
-![bu2](https://github.com/user-attachments/assets/8937f582-6172-4613-bfe8-4d5a19b6c6d0)
 
 
 ---
