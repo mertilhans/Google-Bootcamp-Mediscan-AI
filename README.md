@@ -140,7 +140,7 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 - Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri eklenecek
 
 ---
-# 🚀 Sprint 2 
+# 🚀 Sprint 2 Notları
 
 ---
 
