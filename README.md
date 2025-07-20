@@ -162,7 +162,7 @@ Daily Scrum: Takım üyeleri Google Meet üzerinden günlük toplantılar gerçe
 
 ## 📆 Daily Scrum
 
-- Takım üyeleri(Enes Muharrem Erdoğan - Sevde Elif Hacıosmanoğlu - Şevval İnci - Mert İlhan)her gün **Google Meet** üzerinden online toplantılar gerçekleştirdi.  
+- Takım üyeleri(Enes Muharrem Erdoğan - Sevde Elif Hacıosmanoğlu - Kezban Şevval İnci - Mert İlhan)her gün **Google Meet** üzerinden online toplantılar gerçekleştirdi.  
 - Görev dağılımları ve **backlog durumu** günlük olarak kontrol edildi ve güncellendi.
 - ![bu2](https://github.com/user-attachments/assets/8937f582-6172-4613-bfe8-4d5a19b6c6d0)
 
