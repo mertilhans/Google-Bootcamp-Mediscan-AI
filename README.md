@@ -141,7 +141,9 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 
 ---
 # 🚀 Sprint 2 Notları
-
+  - Sprint İçinde Tamamlanması Tahmin Edilen Puan: 100 Puan
+Puan Tamamlama Mantığı: Sprint 2'de veri setinin genişletilmesi, veritabanı sistemlerinin production'a hazır hale getirilmesi ve frontend geliştirmeye odaklanıldı. KVKK ve veri güvenliği üzerine araştırma yapıldı. Model tanıma testlerine başlandı, OCR ve görüntü işleme yöntemleri test edildi. Toplam 300 puanlık projenin ikinci 100 puanlık kısmı bu sprint'te tamamlanması hedeflendi.
+Daily Scrum: Takım üyeleri Google Meet üzerinden günlük toplantılar gerçekleştirdi. Görev dağılımları ve backlog'lar günlük olarak takip edildi.
 ---
 
 ## 🎯 Tahmini Tamamlanacak İşler
