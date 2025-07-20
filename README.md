@@ -140,13 +140,12 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 - Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri eklenecek
 
 ---
-## 📝 Sprint 2 Notları
+# 🚀 Sprint 2 
 
-### 🎯 Sprint Hedefi  
-**Tahmini Tamamlanacak Puan:** 100 Puan  
-**Toplam Proje Puanı:** 300 Puan  
+---
 
-Sprint 2'de aşağıdaki hedeflere odaklanıldı:
+## 🎯 Tahmini Tamamlanacak İşler
+
 - Veri setinin genişletilmesi  
 - Veritabanı sistemlerinin production'a hazır hale getirilmesi  
 - Frontend geliştirmeye başlanması  
@@ -154,71 +153,90 @@ Sprint 2'de aşağıdaki hedeflere odaklanıldı:
 - OCR ve görüntü işleme yöntemlerinin test edilmesi  
 - Model tanıma testlerine başlanması  
 
----
-
-### 📆 Daily Scrum  
-- Takım üyeleri her gün **Google Meet** üzerinden çevrim içi toplantılar gerçekleştirdi.  
-- **Görev dağılımları** ve **backlog** durumu günlük olarak takip edildi.  
+**Toplam Proje Puanı:** 300  
+**Sprint 2 Puanı (Tahmini):** 100  
 
 ---
 
-### ✅ Sprint Review – Tamamlanan İşler  
-- ✅ 50+ ilaç için yüksek kaliteli görsel veri seti oluşturuldu  
-- ✅ Data augmentation ile veri seti 5 kat genişletildi (250+ görsel)  
-- ✅ 100+ ilaç PDF’i başarıyla işlendi ve yapılandırıldı  
-- ✅ PostgreSQL'de optimize edilmiş metadata sistemi kuruldu  
-- ✅ ChromaDB RAG pipeline’ı başarıyla test edildi  
-- ✅ React.js ile modern kullanıcı arayüzü geliştirildi  
-- ✅ İlk model tanıma testleri %70+ doğruluk oranı gösterdi  
-- ⏳ Gemini API entegrasyonu Sprint 3'e planlandı  
+## 📆 Daily Scrum
+
+- Takım üyeleri(Enes Muharrem Erdoğan - Sevde Elif Hacıosmanoğlu - Şevval İnci - Mert İlhan)her gün **Google Meet** üzerinden online toplantılar gerçekleştirdi.  
+- Görev dağılımları ve **backlog durumu** günlük olarak kontrol edildi ve güncellendi.  
 
 ---
 
-### 🧪 Demo Notları  
-- Hybrid tanıma sistemi (**OCR + Görüntü İşleme**) ilk testlerde **umut verici sonuçlar** verdi.  
+## 📋 Backlog & Sprint Board
 
----
+Sprint boyunca görevlerin takibi için **Trello** kullanıldı.  
+🔗 [Trello Sprint 2 Backlog Linki](https://trello.com/b/y5EasA84/bootcamp-grup-183)
 
-### 👥 Katılımcılar  
-- Tüm takım üyeleri Sprint 2 sürecine aktif olarak katkı sağladı.
-
----
-
-## 🔄 Sprint Retrospective  
-
-### ✅ İyi Giden Noktalar
-- PDF işleme hızı 10 kata kadar artırıldı  
-- Docker kullanımı sayesinde deployment süreci kolaylaştı  
-- Model ilk testlerde beklenen performansı gösterdi  
-- Frontend-Backend mimari tasarımı sağlam temeller üzerine kuruldu  
-
----
-
-### ⚠️ Geliştirilmesi Gereken Noktalar
-- Model doğruluğu için daha fazla **edge case** verisine ihtiyaç var  
-- ChromaDB’nin Türkçe embedding performansı geliştirilmeli  
-- Bazı ilaç isimlerinde OCR hataları tespit edildi  
-
----
-
-### 📌 Aksiyonlar (Sprint 3 için planlananlar)
-- Model fine-tuning çalışmalarına başlanacak  
-- Gemini API entegrasyonu öncelikli hedef olarak belirlendi  
-- Kullanıcı test senaryoları hazırlanacak  
-- İlaç veri seti 150+ görsel hedefine ulaştırılacak  
-
----
-
-## 📋 Backlog & Takip Panosu
-
-Sprint 2 sürecinde görevlerin planlanması ve takibi için **Trello** kullanıldı. Aşağıda aktif olarak kullanılan backlog bağlantısı yer almaktadır:
-
-🔗 **Trello Sprint 2 Backlog Linki:** [Trello Panosunu Görüntüle](https://trello.com/b/y5EasA84/bootcamp-grup-183) 
-
-> 📸
-> ![bu1](https://github.com/user-attachments/assets/3aa0b34d-7f67-450b-b7fc-ea0e28f7d35b)
-> ![bu2](https://github.com/user-attachments/assets/3ec29e68-0005-4be5-9335-f3a608bd66e6)
+> 📸  
 > ![trello](https://github.com/user-attachments/assets/27db1278-f417-4a95-8c7b-826643dd58ee)
+![bu444](https://github.com/user-attachments/assets/11fdf9e1-3586-4ccd-9869-1ae19ba59a01)
+---
 
+
+## 💻 Arayüz ve Uygulama Geliştirme
+
+- React.js ile modern kullanıcı arayüzü geliştirildi  
+- Frontend ve Backend bileşenleri **sağlam mimari temeller** üzerine inşa edildi  
+- Kullanıcı deneyimi önceliklendirildi: **Hesapsız kullanım** hedefleniyor  
+- Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri planlandı  
+![bu1](https://github.com/user-attachments/assets/bb30be78-9ab5-4520-afb4-fd3f9361ad53)
+![bu2](https://github.com/user-attachments/assets/8937f582-6172-4613-bfe8-4d5a19b6c6d0)
+
+
+---
+
+## ✅ Sprint Review – Tamamlanan İşler
+
+- ✅ 50+ ilaç için yüksek kaliteli görseller toplandı  
+- ✅ Data augmentation ile veri seti 250+ görsele genişletildi  
+- ✅ 100+ ilaç PDF’i başarıyla işlendi ve yapılandırıldı  
+- ✅ PostgreSQL ile optimize edilmiş metadata sistemi kuruldu  
+- ✅ ChromaDB ile RAG pipeline başarıyla test edildi  
+- ✅ İlk model tanıma testlerinde %70+ doğruluk elde edildi  
+- ✅ Frontend geliştirme başladı  
+- ⏳ Gemini API entegrasyonu bir sonraki sprint'e aktarıldı  
+
+---
+
+## 🧪 Demo Notları
+
+- **Hibrit tanıma sistemi (OCR + Görüntü İşleme)** ilk testlerde umut verici sonuçlar verdi  
+- PDF işleme süresi standartlaştırıldı ve performansı 10 kat artırıldı  
+
+---
+
+## 🔁 Sprint Retrospective
+
+### ✅ İyi Giden Noktalar  
+- PDF işleme süresi büyük ölçüde optimize edildi  
+- Docker ile deployment süreçleri hız kazandı  
+- İlk model testleri hedeflenen doğruluk seviyesine yaklaştı  
+- Frontend-Backend entegrasyonu sorunsuz ilerledi  
+
+### ⚠️ Geliştirilmesi Gerekenler  
+- Model doğruluğu için **edge case** örneklerine ihtiyaç var  
+- ChromaDB'nin **Türkçe metinlerdeki embedding kalitesi** artırılmalı  
+- Bazı OCR çıktılarında ilaç adı tanıma hataları tespit edildi  
+
+### 📌 Sprint 3 Aksiyonları  
+- Model fine-tuning çalışmalarına başlanacak  
+- Gemini API entegrasyonu yapılacak  
+- Kullanıcı test senaryoları oluşturulacak  
+- Görsel veri seti 150+ hedefiyle genişletilecek  
+
+---
+
+## 📝 Diğer Notlar
+
+- **Fotoğraf çekimi** süreci standardize edildi  
+- **PDF kütüphanelerinin** çeşitliliği test edildi  
+- KVKK ve veri güvenliği araştırmaları devam edecek  
+- **Mockup tasarımları** Sprint 3’e taşındı  
+- Görev dağılımı yeniden gözden geçirildi  
+- Proje adı olarak "**MediScan AI**" belirlendi *(geçici)*  
+- Hibrit tanıma sistemi ve kullanıcı deneyimi ön planda tutuldu  
 > ℹ️ **Uyarı:** Bu platform tanı koymaz veya reçete vermez. Sadece bilgilendirme amacıyla kullanılır. Her zaman bir sağlık uzmanına danışınız.
 
