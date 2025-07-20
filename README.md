@@ -140,6 +140,85 @@ Günümüzde milyonlarca insan ilaç prospektüslerindeki karmaşık tıbbi teri
 - Gelecekte kişiselleştirme ve kullanıcı hesabı özellikleri eklenecek
 
 ---
+## 📝 Sprint 2 Notları
+
+### 🎯 Sprint Hedefi  
+**Tahmini Tamamlanacak Puan:** 100 Puan  
+**Toplam Proje Puanı:** 300 Puan  
+
+Sprint 2'de aşağıdaki hedeflere odaklanıldı:
+- Veri setinin genişletilmesi  
+- Veritabanı sistemlerinin production'a hazır hale getirilmesi  
+- Frontend geliştirmeye başlanması  
+- KVKK ve veri güvenliği üzerine araştırmalar yapılması  
+- OCR ve görüntü işleme yöntemlerinin test edilmesi  
+- Model tanıma testlerine başlanması  
+
+---
+
+### 📆 Daily Scrum  
+- Takım üyeleri her gün **Google Meet** üzerinden çevrim içi toplantılar gerçekleştirdi.  
+- **Görev dağılımları** ve **backlog** durumu günlük olarak takip edildi.  
+
+---
+
+### ✅ Sprint Review – Tamamlanan İşler  
+- ✅ 50+ ilaç için yüksek kaliteli görsel veri seti oluşturuldu  
+- ✅ Data augmentation ile veri seti 5 kat genişletildi (250+ görsel)  
+- ✅ 100+ ilaç PDF’i başarıyla işlendi ve yapılandırıldı  
+- ✅ PostgreSQL'de optimize edilmiş metadata sistemi kuruldu  
+- ✅ ChromaDB RAG pipeline’ı başarıyla test edildi  
+- ✅ React.js ile modern kullanıcı arayüzü geliştirildi  
+- ✅ İlk model tanıma testleri %70+ doğruluk oranı gösterdi  
+- ⏳ Gemini API entegrasyonu Sprint 3'e planlandı  
+
+---
+
+### 🧪 Demo Notları  
+- Hybrid tanıma sistemi (**OCR + Görüntü İşleme**) ilk testlerde **umut verici sonuçlar** verdi.  
+
+---
+
+### 👥 Katılımcılar  
+- Tüm takım üyeleri Sprint 2 sürecine aktif olarak katkı sağladı.
+
+---
+
+## 🔄 Sprint Retrospective  
+
+### ✅ İyi Giden Noktalar
+- PDF işleme hızı 10 kata kadar artırıldı  
+- Docker kullanımı sayesinde deployment süreci kolaylaştı  
+- Model ilk testlerde beklenen performansı gösterdi  
+- Frontend-Backend mimari tasarımı sağlam temeller üzerine kuruldu  
+
+---
+
+### ⚠️ Geliştirilmesi Gereken Noktalar
+- Model doğruluğu için daha fazla **edge case** verisine ihtiyaç var  
+- ChromaDB’nin Türkçe embedding performansı geliştirilmeli  
+- Bazı ilaç isimlerinde OCR hataları tespit edildi  
+
+---
+
+### 📌 Aksiyonlar (Sprint 3 için planlananlar)
+- Model fine-tuning çalışmalarına başlanacak  
+- Gemini API entegrasyonu öncelikli hedef olarak belirlendi  
+- Kullanıcı test senaryoları hazırlanacak  
+- İlaç veri seti 150+ görsel hedefine ulaştırılacak  
+
+---
+
+## 📋 Backlog & Takip Panosu
+
+Sprint 2 sürecinde görevlerin planlanması ve takibi için **Trello** kullanıldı. Aşağıda aktif olarak kullanılan backlog bağlantısı yer almaktadır:
+
+🔗 **Trello Sprint 2 Backlog Linki:** [Trello Panosunu Görüntüle](https://trello.com/b/y5EasA84/bootcamp-grup-183) 
+
+> 📸
+> ![bu1](https://github.com/user-attachments/assets/3aa0b34d-7f67-450b-b7fc-ea0e28f7d35b)
+> ![bu2](https://github.com/user-attachments/assets/3ec29e68-0005-4be5-9335-f3a608bd66e6)
+> ![trello](https://github.com/user-attachments/assets/27db1278-f417-4a95-8c7b-826643dd58ee)
 
 > ℹ️ **Uyarı:** Bu platform tanı koymaz veya reçete vermez. Sadece bilgilendirme amacıyla kullanılır. Her zaman bir sağlık uzmanına danışınız.
 
