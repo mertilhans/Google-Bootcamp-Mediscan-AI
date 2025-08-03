@@ -249,8 +249,6 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 
 **Puan Tamamlama Mantığı:** Sprint 3'te sistemin tam entegrasyonu, Gemini API bağlantısı, kullanıcı arayüzünün tamamlanması ve test senaryolarına odaklanıldı. Model embedding sistemi optimize edildi, OCR+Model hibrit yaklaşımı production seviyesine getirildi. Toplam 300 puanlık projenin son 100 puanlık kısmı bu sprint'te tamamlanması hedeflendi.
 
-**Daily Scrum:** Proje tek kişi tarafından yürütüldüğü için self-review yapıldı. Günlük hedefler ve blocker'lar takip edildi.
-
 ---
 
 ## 🎯 Sprint Hedefleri
@@ -293,7 +291,7 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 - ✅ End-to-end kullanıcı test senaryoları tamamlandı
 - ✅ Docker deployment hazır hale getirildi
 
-**Katılımcılar:** Enes Muharrem Erdoğan - Kezban Şevval İnci - Mert İlhan - Sevde Elif Hacıosmanoğlu - Emirhan Yıldız
+**Katılımcılar:** Enes Muharrem Erdoğan - Kezban Şevval İnci - Mert İlhan - Sevde Elif Hacıosmanoğlu 
 
 ---
 
