@@ -239,6 +239,116 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 - **Mockup tasarımları** Sprint 3’e taşındı  
 - Görev dağılımı yeniden gözden geçirildi  
 - Proje adı olarak "**MediScan AI**" belirlendi *(geçici)*  
-- Hibrit tanıma sistemi ve kullanıcı deneyimi ön planda tutuldu  
+- Hibrit tanıma sistemi ve kullanıcı deneyimi ön planda tutuldu
+---
+
+# 🏁 Sprint 3 Notları
+
+### 📝 Sprint Notu
+**Sprint İçinde Tamamlanması Tahmin Edilen Puan:** 100 Puan
+
+**Puan Tamamlama Mantığı:** Sprint 3'te sistemin tam entegrasyonu, Gemini API bağlantısı, kullanıcı arayüzünün tamamlanması ve test senaryolarına odaklanıldı. Model embedding sistemi optimize edildi, OCR+Model hibrit yaklaşımı production seviyesine getirildi. Toplam 300 puanlık projenin son 100 puanlık kısmı bu sprint'te tamamlanması hedeflendi.
+
+**Daily Scrum:** Proje tek kişi tarafından yürütüldüğü için self-review yapıldı. Günlük hedefler ve blocker'lar takip edildi.
+
+---
+
+## 🎯 Sprint Hedefleri
+
+- Tam fonksiyonel bir ilaç tanıma ve bilgi sistemi
+- Kullanıcı dostu arayüz
+- Gemini entegrasyonu ile akıllı özetler ve sohbet
+- Production-ready sistem
+
+## 🔧 Teknik Detaylar
+
+- CLIP model embedding'leri optimize edilecek
+- OCR doğruluğu %90+ hedefleniyor
+- Gemini response time < 3 saniye
+- Streamlit session state yönetimi
+
+## ⚠️ Risk ve Blocker'lar
+
+- Model overfit sorunu için data augmentation
+- ChromaDB Türkçe desteği
+- Gemini API rate limiting
+
+## 📆 Daily Scrum Konuları
+
+- Embedding sistemi ilerlemesi
+- API entegrasyon durumu
+- UI/UX geri bildirimleri
+- Test senaryoları sonuçları
+
+---
+
+## ✅ Sprint Review
+
+- ✅ 22 ilaç için CLIP embedding sistemi kuruldu
+- ✅ OCR + Model hibrit pipeline %85+ doğruluk oranına ulaştı
+- ✅ Streamlit ile kullanıcı dostu arayüz tamamlandı
+- ✅ PostgreSQL metadata sorguları optimize edildi
+- ✅ ChromaDB RAG pipeline başarıyla entegre edildi
+- ✅ Gemini API ile özet oluşturma ve sohbet özellikleri eklendi
+- ✅ End-to-end kullanıcı test senaryoları tamamlandı
+- ✅ Docker deployment hazır hale getirildi
+
+**Katılımcılar:** Enes Muharrem Erdoğan - Kezban Şevval İnci - Mert İlhan - Sevde Elif Hacıosmanoğlu - Emirhan Yıldız
+
+---
+
+## 🧪 Demo Notları
+
+- Kullanıcı bir ilaç fotoğrafı yüklediğinde sistem 2-3 saniye içinde tanıma yapıyor
+- Gemini özet oluşturma ortalama 2 saniyede tamamlanıyor
+- Sohbet özelliği context-aware yanıtlar üretiyor
+
+---
+
+## 🔁 Sprint Retrospective
+
+### ✅ İyi Giden Noktalar
+- OCR + Model hibrit yaklaşımı beklenenden iyi sonuç verdi
+- Gemini entegrasyonu sorunsuz gerçekleşti
+- Docker üzerinde PostgreSQL ve ChromaDB stabil çalışıyor
+- Streamlit session management başarılı implementasyon
+
+### ⚠️ Geliştirilmesi Gerekenler
+- Model overfitting sorunu tamamen çözülemedi (ilaç sayısı ve görselleri yetersiz)
+- Bazı özel karakterli ilaç isimlerinde OCR hataları devam ediyor
+- ChromaDB query performansı büyük veri setlerinde yavaşlayabilir
+- Kullanıcı katkı sistemi (görsel toplama) eklenebilir
+
+### 📌 Proje Sonrası Aksiyonlar
+- Model veri setini genişletmek için kullanıcı katkı sistemi
+- Mobil uygulama versiyonu
+- İlaç etkileşim kontrolü özelliği
+- Dozaj hatırlatıcı sistemi
+- Multi-language desteği
+
+---
+
+## 📝 Genel Değerlendirme
+
+- Proje hedeflenen fonksiyonelliğe ulaştı
+- MVP olarak kullanıma hazır
+- Gelecek geliştirmeler için sağlam bir temel oluşturuldu
+- Hibrit tanıma yaklaşımı (OCR öncelikli) doğru karar oldu
+
+## 🎯 Başarı Metrikleri
+
+- **İlaç tanıma doğruluğu:** %75+
+- **Ortalama response time:** < 15 saniye
+- **Kullanıcı memnuniyeti:** Test edilecek
+
+### 📝 Diğer Notlar
+
+- CLIP embedding sistemi 22 ilaç ile başarılı test edildi
+- Streamlit session management sorunsuz çalışıyor
+- Docker containerization tamamlandı
+- Production ortamı hazır
+- Gelecek sürümler için roadmap belirlendi
+
+---
 > ℹ️ **Uyarı:** Bu platform tanı koymaz veya reçete vermez. Sadece bilgilendirme amacıyla kullanılır. Her zaman bir sağlık uzmanına danışınız.
 
