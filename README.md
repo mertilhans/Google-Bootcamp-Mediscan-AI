@@ -280,8 +280,7 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 - <img width="1942" height="913" alt="bunueklicez1" src="https://github.com/user-attachments/assets/a76ce963-c79c-4ca0-9b0d-203550c6cacd" />
 # 📋 Backlog & Sprint Board
 <img width="1600" height="748" alt="butrello" src="https://github.com/user-attachments/assets/9d0c1381-76ff-4c4d-9322-4c1667e49d15" />
-- 🔗 [Trello Board Linki](https://trello.com/invite/b/688f0330bc78e2779674fcf1/ATTIde3a3cf04513da18c58780b5ad4ae5db631D74DD/bootcamp-183grup-3-sprint)
-- 
+- 🔗 [Trello Board Linki](https://trello.com/b/688f0330bc78e2779674fcf1/bootcamp-183grup-3-sprint)
 ---
 
 ## ✅ Sprint Review
