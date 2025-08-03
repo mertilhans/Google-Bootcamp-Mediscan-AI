@@ -277,7 +277,9 @@ Sprint boyunca görevlerin takibi için **Trello** kullanıldı.
 - API entegrasyon durumu
 - UI/UX geri bildirimleri
 - Test senaryoları sonuçları
-
+- <img width="1942" height="913" alt="bunueklicez1" src="https://github.com/user-attachments/assets/a76ce963-c79c-4ca0-9b0d-203550c6cacd" />
+<img width="1600" height="748" alt="butrello" src="https://github.com/user-attachments/assets/9d0c1381-76ff-4c4d-9322-4c1667e49d15" />
+-https://meet.google.com/pqb-nhhk-rwk
 ---
 
 ## ✅ Sprint Review
